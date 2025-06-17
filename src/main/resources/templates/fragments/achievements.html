@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block th:fragment="achievements-section">
+    <section class="section achievements" id="achievements">
+        <div class="container">
+            <div class="section-title-container">
+                <h2 class="section-title">Achievements</h2>
+                <p class="section-subtitle">
+                    Recognitions and milestones I've reached along my journey
+                </p>
+            </div>
+            <div class="achievements-container">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3 class="achievement-title">Scholarship</h3>
+                    <p class="achievement-description">
+                        Awarded the prestigious Manipal University Annual Scholarship three times consecutively during my academic career,
+                        recognizing consistent academic excellence and dedication. Honored on Scholarship Day for outstanding performance,
+                        this accolade reflects my commitment to maintaining high standards and striving for excellence throughout my studies.
+                    </p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <h3 class="achievement-title">Professional Certifications</h3>
+                    <ul class="achievement-description" style="list-style-type: disc; padding-left: 20px; margin-top: 10px;">
+                        <li><strong>Generative AI for Healthcare</strong> - Coursera (Valid from Dec 2024)</li>
+                        <li><strong>Mastering Data Structures & Algorithms using C and C++</strong> - Udemy (Valid from Oct 2022)</li>
+                        <li><strong>Learn Java Programming – Beginner To Master</strong> - Udemy (Valid from Nov 2022)</li>
+                        <li><strong>Complete Data Science, Machine Learning, DL, NLP Bootcamp</strong> - Udemy (Valid from Nov 2024)</li>
+                    </ul>
+                </div>
+
+               <!-- <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-film"></i>
+                    </div>
+                    <h3 class="achievement-title">Premium Courses on Udemy</h3>
+                    <p class="achievement-description">
+                        Created and published high-quality premium courses on Udemy, empowering thousands of students worldwide to learn Java, Spring Boot, and full-stack development with practical, real-world projects.
+                    </p>
+                </div>-->
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-code-merge"></i>
+                    </div>
+                    <h3 class="achievement-title">GitHub Contributions</h3>
+                    <p class="achievement-description">
+                        Explore my GitHub profile to see a curated collection of my personal projects and hands-on experiments in
+                        software development. While I haven’t contributed to open source yet, I actively maintain my own repositories,
+                        showcasing a range of practical solutions and learning journeys. Each repository reflects my commitment to
+                        continuous learning and building real-world solutions.
+                    </p>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fa-solid fa-file-medical"></i>
+                    </div>
+                    <h3 class="achievement-title">Research Paper</h3>
+                    <p class="achievement-description">
+                        Authored a research paper on developing an advanced ensemble machine learning model for liver cancer
+                        prediction, integrating explainable AI (XAI) techniques to provide transparent, interpretable insights
+                        for clinical decision-making. The study demonstrates how stacking ensemble models, combined with tools
+                        like SHAP, can significantly improve predictive accuracy and help medical professionals
+                        understand the key clinical factors influencing each prediction. This work contributes to the
+                        growing field of AI-driven healthcare by bridging model performance with interpretability.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</th:block>
+</html>
